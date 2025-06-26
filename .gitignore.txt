@@ -1,0 +1,23 @@
+# Ignore Python cache and compiled files
+_pycache_/
+*.py[cod]
+*.so
+
+# Ignore environment folder
+face_env_39/
+
+# Ignore data/output files
+*.db
+*.sqlite3
+*.pickle
+*.pkl
+*.log
+*.csv
+*.xlsx
+
+# Ignore secrets or private config
+credentials.json
+.env
+
+# macOS system files (just in case)
+.DS_Store
